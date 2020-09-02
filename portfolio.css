@@ -1,0 +1,142 @@
+head,body{
+    height: 100%;
+}
+body{
+    margin: 0;
+    background-color: #fff;
+}
+h3{
+    font-family: cursive;
+    text-align: center;
+}
+figcaption{
+    font-size: 11px;
+    line-height: 20px;
+    color: #444242;
+}
+header{
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    box-shadow: 1px 1px 10px 1px gray;
+}
+header .navBar{
+    margin: 0px 5px;
+    padding: 10px 0;
+    border-bottom: 1px solid #fff;
+}
+header .navBar h2{
+    margin:0;
+    font-family: cursive;
+}
+.top{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top img{
+    width: 100px;
+    border-radius: 100%;
+    margin-left: 1em;
+}
+section.skill{
+    margin:3em;
+}
+section.project{
+    margin:3em  auto;
+}
+.project .projects{
+    display: block;
+
+}
+.project .projects figure{
+    box-shadow: 1px 1px 10px 1px #d8d8d8;
+    margin:0 20px;
+    width: 290px;
+    text-align: center;
+    margin:3em auto;
+}
+.project .projects figure img{
+    margin: 20px 0;
+    width: 120px;
+}
+.project .projects figure figcaption{
+    font-size: 11px;
+    line-height: 20px;
+    padding: 20px;
+}
+.about{
+    display: block;
+}
+.about figure{
+    width: 290px;
+    margin:3em auto;
+    text-align: center;
+    box-shadow: 1px 1px 10px 1px #d8d8d8;
+}
+.about figure img{
+    width: 290px;
+}
+.about figure figcaption{
+    padding: 20px;
+}
+.education figure,.volunteer figure{
+    text-align: center;
+    width: 290px;
+    margin:2em  auto;
+    box-shadow: 1px 1px 10px 1px #d8d8d8;
+}
+.education figure img, .volunteer figure img{
+    width: 200px;
+    margin: 20px 0;
+}
+.education figure figcaption{
+    padding: 20px;
+    text-align: left;
+}
+.volunteer figure figcaption{
+    padding: 20px;
+}
+.achievements p{
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 1px 1px 10px 1px #d8d8d8;
+    font-size:11px;
+    color: #444242;
+    line-height: 20px;
+
+}
+.achievements p span{
+    background-image: linear-gradient(to left , red,orange,yellow,green,blue,indigo,violet);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.skill .skills div{
+    display: inline-block;
+}
+.myProgress {
+    position: relative;
+    background-color: #d8d8d8;
+    width: 100px;
+    /* height: 100px; */
+    /* display: flex; */
+
+  }
+  
+  .myBar {
+    /* align-items: center;
+    justify-content: center; */
+    background-color: #0aff50;
+    width: 10px;
+    /* margin: auto; */
+
+  }
+  
+  #label {
+    text-align: center;
+    line-height: 30px;
+    color: white;
+  }

@@ -114,7 +114,13 @@ section.project{
     background-clip: text;
     color: transparent;
 }
+.skill{
+    width: 80%;
+    margin:auto;
+    text-align: center;
+}
 .skill .skills div{
+    text-align: left;
     display: inline-block;
 }
 .myProgress {

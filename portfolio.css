@@ -123,20 +123,23 @@ section.project{
     width: 100px;
     /* height: 100px; */
     /* display: flex; */
+    margin: 0 5px;
 
   }
   
   .myBar {
     /* align-items: center;
     justify-content: center; */
-    background-color: red;
+    background-color: rgb(255, 66, 66);
     width: 10px;
+    color: white;
+    padding: 5px 0;
     /* margin: auto; */
 
   }
   
   #label {
     text-align: center;
-    line-height: 30px;
+    line-height: 20px;
     color: white;
   }

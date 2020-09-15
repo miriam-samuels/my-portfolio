@@ -3,6 +3,9 @@ function move() {
     var elem =Array.from(document.getElementsByClassName("myBar")) ;
     var label = Array.from( document.getElementsByClassName("label"))
     var width = 10;
+    elem[1].style.background = brown;
+    elem[2].style.background = blue;
+    elem[3].style.background = yellow;
     var id = setInterval(frame, 20);
     var id2 = setInterval(frame2, 20);
     var id3 = setInterval(frame3, 20);

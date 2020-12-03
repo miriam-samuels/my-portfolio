@@ -59,9 +59,13 @@ section.skill .skills div{
 }
 section.skill .skills div img{
     display: block;
-    width: 50px;
+    width: 60px;
     margin: auto;
     border-radius: 12px;
+}
+section.skill .skills div b{
+    font-size: 12px;
+    font-weight: 500;
 }
 section.skill .skills div img .js{
     display: block;

@@ -44,6 +44,9 @@ header .navBar h2{
 .top .intro  {
     padding: 0 20px;
 }
+.top .intro h3{
+    text-align: left;
+}
 .top .intro button{
     background-color: rgb(247, 152, 184);
     border: none;

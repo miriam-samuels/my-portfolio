@@ -84,8 +84,8 @@ section.project{
     width: 120px;
 }
 .project .projects figure figcaption{
-    font-size: 11px;
-    line-height: 20px;
+    font-size: 14px;
+    line-height: 30px;
     padding: 20px;
 }
 .about{
@@ -117,13 +117,13 @@ section.project{
     width: 150px;
     margin: 20px 0;
 }
-.volunteer figure img{
-    width: 250px;
-    margin: 20px 0;
-}
 .education figure figcaption{
     padding: 20px;
     text-align: left;
+}
+.volunteer figure img{
+    width: 250px;
+    margin: 20px 0;
 }
 .volunteer{
     margin: 5em auto;

@@ -15,10 +15,9 @@ figcaption{
     color: #444242;
 }
 header{
+    height: 550px;
     width: 100%;
-    background-color: #000;
-    color: #fff;
-    box-shadow: 1px 1px 10px 1px gray;
+    color: rgb(78, 78, 78);
 }
 header .navBar{
     margin: 0px 5px;
@@ -31,17 +30,41 @@ header .navBar h2{
 }
 .top{
     height: 300px;
-    display: flex;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
 }
 .top img{
-    width: 100px;
-    border-radius: 100%;
-    margin-left: 1em;
+    width: 100%;
+}
+.top hr{
+    text-align: left;
+    margin:20px  0;
+    width:100px;
+    border-top: 2px solid palevioletred ;
+}
+.top .intro  {
+    padding: 0 20px;
 }
 section.skill{
-    margin:3em;
+    margin: 10px;
+}
+section.skill .skills{
+    text-align: center;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+section.skill .skills div img{
+    display: block;
+    width: 80px;
+    margin: auto;
+    border-radius: 12px;
+}
+section.skill .skills div .js{
+    display: block;
+    margin: 10px 0;
 }
 section.project{
     margin:3em  auto;
@@ -114,38 +137,4 @@ section.project{
     background-clip: text;
     color: transparent;
 }
-.skill{
-    /* width: 90%; */
-    margin:auto;
-    text-align: center;
-}
-.skill .skills div{
-    text-align: left;
-    display: inline-block;
-}
-.myProgress {
-    position: relative;
-    background-color: #d8d8d8;
-    width: 100px;
-    /* height: 100px; */
-    /* display: flex; */
-    margin: 0 5px;
 
-  }
-  
-  .myBar {
-    /* align-items: center;
-    justify-content: center; */
-    background-color: rgb(255, 66, 66);
-    width: 10px;
-    color: white;
-    padding: 5px 0;
-    /* margin: auto; */
-
-  }
-  
-  #label {
-    text-align: center;
-    line-height: 20px;
-    color: white;
-  }

@@ -29,10 +29,7 @@ header .navBar h2{
     font-family: cursive;
 }
 .top{
-    /* height: 300px; */
     display: block;
-    /* align-items: center; */
-    /* justify-content: center; */ 
 }
 .top img{
     width: 100%;
@@ -62,7 +59,7 @@ section.skill .skills div{
 }
 section.skill .skills div img{
     display: block;
-    width: 80px;
+    width: 50px;
     margin: auto;
     border-radius: 12px;
 }

@@ -17,6 +17,7 @@ figcaption{
 header{
     width: 100%;
     color: rgb(78, 78, 78);
+    height: max-content;
 }
 header .navBar{
     margin: 0px 5px;

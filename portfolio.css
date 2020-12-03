@@ -10,8 +10,8 @@ h3{
     text-align: center;
 }
 figcaption{
-    font-size: 11px;
-    line-height: 20px;
+    font-size: 14px;
+    line-height: 30px;
     color: #444242;
 }
 header{
@@ -48,7 +48,7 @@ header .navBar h2{
     padding: 0 20px;
 }
 section.skill{
-    margin: 10px;
+    margin: 5em 10px;
 }
 section.skill .skills{
     text-align: center;
@@ -71,7 +71,7 @@ section.skill .skills div img .js{
     /* margin: 10px 0; */
 }
 section.project{
-    margin:3em  auto;
+    margin:5em  auto;
 }
 .project .projects{
     display: block;
@@ -93,6 +93,7 @@ section.project{
     padding: 20px;
 }
 .about{
+    margin: 5em auto;
     display: block;
 }
 .about figure{
@@ -107,6 +108,9 @@ section.project{
 .about figure figcaption{
     padding: 20px;
 }
+.education{
+    margin: 5em auto;
+}
 .education figure,.volunteer figure{
     text-align: center;
     width: 290px;
@@ -114,12 +118,15 @@ section.project{
     box-shadow: 1px 1px 10px 1px #d8d8d8;
 }
 .education figure img, .volunteer figure img{
-    width: 200px;
+    width: 250px;
     margin: 20px 0;
 }
 .education figure figcaption{
     padding: 20px;
     text-align: left;
+}
+.volunteer{
+    margin: 5em auto;
 }
 .volunteer figure figcaption{
     padding: 20px;
@@ -162,7 +169,7 @@ section.project{
     }
     .volunteer figure{
         margin:10px;
-        width:250px;
+        width:278px;
     }
     .about figure,.education figure{
         display: flex;

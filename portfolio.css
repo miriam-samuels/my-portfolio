@@ -8,7 +8,6 @@ body{
 h3{
     font-family: cursive;
     text-align: center;
-    margin: 3em auto;
 }
 figcaption{
     font-size: 14px;
@@ -94,7 +93,59 @@ section.skill .skills div b{
 section.skill .skills div img .js{
     display: block;
 }
-section.project{
+.project .projects{
+    display: block;
+}
+.project .projects figure{
+    width: 90%;
+    margin:20px  auto;
+    box-shadow: 1px 1px 10px 1px #d8d8d8;
+}
+.project .projects figure img{
+    margin:0;
+    width: 100%;
+    filter: brightness(70%);
+}
+.project .projects figure figcaption h3{
+    margin: 0;
+    font-size: 20px;
+    text-align: left;
+}
+.project .projects figure figcaption{
+    font-size: 14px;
+    line-height: 25px;
+    padding: 20px;
+}
+.project .projects figure figcaption ul{
+    padding: 0;
+    list-style: none;
+}
+.project .projects figure figcaption ul li{
+    display: inline-block;
+    margin: 0 10px 10px 0;
+    background-color: azure;
+    width: 100px;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 5px 0;
+}
+.project .projects figure figcaption a{
+    color: white;
+    text-decoration: none;
+}
+.project .projects figure figcaption img{
+    width: 30px;
+}
+.project .projects figure figcaption button{
+    padding: 8px 10px;
+    background-color: palevioletred;
+    border: none;
+    border-radius: 5px;
+    margin: 0 20px;
+    vertical-align: top;
+}
+/*section.project{
     margin:5em  auto;
 }
 .project .projects{
@@ -107,9 +158,10 @@ section.project{
     text-align: center;
     margin:3em auto;
 }
-.project .projects figure img{
-    margin: 20px 0;
-    width: 120px;
+ .project .projects figure img{
+    margin:0;
+    width: 100%;
+    height: 200px;
 }
 .project .projects figure figcaption{
     font-size: 14px;
@@ -174,7 +226,7 @@ section.project{
     -moz-background-clip: text;
     background-clip: text;
     color: transparent;
-}
+} */
 
 /* 
     larger screens
@@ -184,7 +236,7 @@ section.project{
         grid-template-columns: repeat(4,1fr);
         gap: 20px;
     }
-    .project .projects,.volunteer .volunteers{
+    /* .project .projects,.volunteer .volunteers{
         width: 95%;
         margin: auto;
     }
@@ -211,7 +263,7 @@ section.project{
         align-items: center;
         justify-content: center;
         width: 90%;
-    }
+    } */
 }
 @media (min-width:768px){
     header .navBar{
@@ -233,19 +285,18 @@ section.project{
         order: 2;
     }
 
-.top .intro{
-    margin-right: 4em;
-}
- .top .intro h3{
-    font-size: 28px;
-    margin: 0;
-    text-align: left;
-
-}
-.top .intro h4{
-    font-size: 20px;
-}
-    .project .projects,.volunteer .volunteers{
+    .top .intro{
+        margin-right: 4em;
+    }
+    .top .intro h3{
+        font-size: 28px;
+        margin: 0;
+        text-align: left;
+    }
+    .top .intro h4{
+        font-size: 20px;
+    }
+    /* .project .projects,.volunteer .volunteers{
         width: 90%;
         margin: auto;
     }
@@ -265,7 +316,7 @@ section.project{
     }
     .about figure,.education figure{
         width: 80%;
-    }
+    } */
 }
 @media (min-width:1024px){
     header{
@@ -277,7 +328,7 @@ section.project{
     .top img{
         width: 50%;
     }
-    .project .projects,.volunteer .volunteers{
+    /* .project .projects,.volunteer .volunteers{
         width: 80%;
         margin: auto;
     }
@@ -290,7 +341,7 @@ section.project{
     }
     .about figure,.education figure{
         width: 70%;
-    }
+    } */
 }
 @media (min-width:1280px){
     header{
@@ -302,7 +353,7 @@ section.project{
     .top img{
         width: 45%;
     }
-    .project .projects,.volunteer .volunteers{
+    /* .project .projects,.volunteer .volunteers{
         width: 80%;
         margin: auto;
     }
@@ -315,5 +366,5 @@ section.project{
     }
     .about figure,.education figure{
         width: 70%;
-    }
+    } */
 }

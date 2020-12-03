@@ -139,9 +139,9 @@ section.project{
     margin: 10px;
     padding: 20px;
     box-shadow: 1px 1px 10px 1px #d8d8d8;
-    font-size:11px;
+    font-size:14px;
     color: #444242;
-    line-height: 20px;
+    line-height: 30px;
 
 }
 .achievements p span{
@@ -161,19 +161,22 @@ section.project{
         gap: 20px;
     }
     .project .projects,.volunteer .volunteers{
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        width: 90%;
+        margin: auto;
     }
-    .project .projects figure{
-        /* display: inline-block; */
+    .project .projects figure, .volunteer figure{
+        display: inline-block;
         vertical-align: top;
         margin: 10px;
-        height: 250px;
+        width: 46%;
+        height: 320px;
     }
     .volunteer figure{
-        margin:10px;
-        width:278px;
+        height: 350px;
+    }
+    .volunteer figure img{
+        width: 200px;
+        margin: 30px 0 0 0;
     }
     .about figure,.education figure{
         display: flex;

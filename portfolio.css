@@ -17,7 +17,7 @@ figcaption{
 header{
     width: 100%;
     color: rgb(78, 78, 78);
-    height: max-content;
+    /* height: 6; */
 }
 header .navBar{
     margin: 0px 5px;
@@ -30,12 +30,13 @@ header .navBar h2{
 }
 .top{
     /* height: 300px; */
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
+    display: block;
+    /* align-items: center; */
+    /* justify-content: center; */ */
 }
 .top img{
     width: 100%;
+    display: block;
 }
 .top hr{
     text-align: left;

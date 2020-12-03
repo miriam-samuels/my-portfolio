@@ -160,6 +160,10 @@ section.project{
         margin: 10px;
         height: 250px;
     }
+    .volunteer figure{
+        margin:10px;
+        width:250px;
+    }
     .about figure,.education figure{
         display: flex;
         align-items: center;

@@ -15,7 +15,6 @@ figcaption{
     color: #444242;
 }
 header{
-    height: fit-content;
     width: 100%;
     color: rgb(78, 78, 78);
 }
@@ -29,7 +28,7 @@ header .navBar h2{
     font-family: cursive;
 }
 .top{
-    height: 300px;
+    /* height: 300px; */
     /* display: flex;
     align-items: center;
     justify-content: center; */

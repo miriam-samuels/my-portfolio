@@ -164,7 +164,7 @@ section.project{
         width: 90%;
         margin: auto;
     }
-    .project .projects figure, .volunteer figure{
+    .project .projects figure{
         display: inline-block;
         vertical-align: top;
         margin: 10px;
@@ -172,7 +172,11 @@ section.project{
         height: 320px;
     }
     .volunteer figure{
-        height: 350px;
+        display: inline-block;
+        vertical-align: top;
+        margin: 10px;
+        width: 46%;
+        height: 360px;
     }
     .volunteer figure img{
         width: 200px;

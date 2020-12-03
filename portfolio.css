@@ -65,7 +65,6 @@ section.skill .skills div img{
 }
 section.skill .skills div img .js{
     display: block;
-    /* margin: 10px 0; */
 }
 section.project{
     margin:5em  auto;
@@ -114,7 +113,11 @@ section.project{
     margin:2em  auto;
     box-shadow: 1px 1px 10px 1px #d8d8d8;
 }
-.education figure img, .volunteer figure img{
+.education figure img{
+    width: 150px;
+    margin: 20px 0;
+}
+.volunteer figure img{
     width: 250px;
     margin: 20px 0;
 }

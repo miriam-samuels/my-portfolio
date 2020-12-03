@@ -223,13 +223,13 @@ section.project{
     }
     .top img{
         margin: 0;
-        width: 60%;
+        width: 55%;
         display: block;
         order: 2;
     }
 
 .top .intro{
-    margin-right: 5em;
+    margin-right: 4em;
 }
  .top .intro h3{
     font-size: 28px;

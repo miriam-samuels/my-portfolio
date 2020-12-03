@@ -161,7 +161,7 @@ section.project{
         gap: 20px;
     }
     .project .projects,.volunteer .volunteers{
-        width: 90%;
+        width: 95%;
         margin: auto;
     }
     .project .projects figure{
@@ -169,7 +169,7 @@ section.project{
         vertical-align: top;
         margin: 10px;
         width: 46%;
-        height: 320px;
+        height: 340px;
     }
     .volunteer figure{
         display: inline-block;
@@ -191,7 +191,7 @@ section.project{
 }
 @media (min-width:768px){
     .project .projects,.volunteer .volunteers{
-        width: 80%;
+        width: 90%;
         margin: auto;
     }
     .project .projects figure, .volunteer figure{
@@ -199,7 +199,7 @@ section.project{
         vertical-align: top;
         margin: 11px;
         width: 46%;
-        height: 320px;
+        height: 350px;
     }
     .about figure,.education figure{
         width: 80%;

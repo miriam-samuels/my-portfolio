@@ -194,12 +194,19 @@ section.project{
         width: 90%;
         margin: auto;
     }
-    .project .projects figure, .volunteer figure{
+    .project .projects figure{
         display: inline-block;
         vertical-align: top;
         margin: 11px;
         width: 46%;
-        height: 350px;
+        height: 300px;
+    }
+    .volunteer figure{
+        display: inline-block;
+        vertical-align: top;
+        margin: 11px;
+        width: 46%;
+        height: 350px;  
     }
     .about figure,.education figure{
         width: 80%;

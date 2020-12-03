@@ -38,11 +38,30 @@ header .navBar h2{
 .top hr{
     text-align: left;
     margin:20px  0;
-    width:100px;
-    border-top: 2px solid palevioletred ;
+    width:80px;
+    border-top: 4px solid palevioletred ;
 }
 .top .intro  {
     padding: 0 20px;
+}
+.top .intro button{
+    background-color: rgb(247, 152, 184);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.top .intro ul{
+    padding: 0%;
+    list-style: none;
+    display: flex;
+}
+.top .intro ul li{
+    margin: 10px 20px 0 0;
+}
+.top .intro ul li img{
+    width: 30px;
 }
 section.skill{
     margin: 5em 10px;
@@ -190,6 +209,37 @@ section.project{
     }
 }
 @media (min-width:768px){
+    header .navBar{
+        margin: 0px 5px;
+        padding: 40px 3em;
+        border-bottom: 1px solid #fff;
+    }
+    header .top{
+        width: 95%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .top img{
+        margin: 0;
+        width: 60%;
+        display: block;
+        order: 2;
+    }
+
+.top .intro{
+    margin-right: 5em;
+}
+ .top .intro h3{
+    font-size: 28px;
+    margin: 0;
+    text-align: left;
+
+}
+.top .intro h4{
+    font-size: 20px;
+}
     .project .projects,.volunteer .volunteers{
         width: 90%;
         margin: auto;
@@ -213,6 +263,40 @@ section.project{
     }
 }
 @media (min-width:1024px){
+    header{
+        background: linear-gradient(to right, azure 50%, white 50%);
+    }
+    .top .intro{
+        margin-right: 12em;
+    }
+    .top img{
+        width: 50%;
+    }
+    .project .projects,.volunteer .volunteers{
+        width: 80%;
+        margin: auto;
+    }
+    .project .projects figure{
+        margin: 0 15px;
+    }
+    .volunteer figure{
+        margin: 0 15px;
+ 
+    }
+    .about figure,.education figure{
+        width: 70%;
+    }
+}
+@media (min-width:1280px){
+    header{
+        background: linear-gradient(to right, azure 50%, white 50%);
+    }
+    .top .intro{
+        margin-right: 20em;
+    }
+    .top img{
+        width: 45%;
+    }
     .project .projects,.volunteer .volunteers{
         width: 80%;
         margin: auto;

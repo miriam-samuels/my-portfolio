@@ -3,7 +3,6 @@ head,body{
 }
 body{
     margin: 0;
-    background-color: rgb(239, 248, 247);
 }
 h3{
     font-family: cursive;
@@ -494,6 +493,9 @@ section.skill .skills div img .js{
     } */
 }
 @media (min-width:992px){
+    body{
+        background-color: rgb(239, 248, 247);
+    }
     header{
         background: linear-gradient(to right, azure 50%, white 50%);
     }

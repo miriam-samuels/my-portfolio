@@ -82,7 +82,8 @@ header #nav-item ul li{
     font-size: 16px;
 }
 header #nav-item ul li:hover{
-    background-color: azure;
+    background-color: black;
+    color: white;
 }
 .top{
     display: block;
@@ -366,6 +367,10 @@ section.skill .skills div img .js{
     header #nav-item ul li{
         display: inline-block;
     }
+    /* header #nav-item ul li:hover{
+        background-color: azure;
+        color: white;
+    } */
     header .top{
         width: 95%;
         margin: auto;

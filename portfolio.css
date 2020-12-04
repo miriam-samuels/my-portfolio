@@ -17,6 +17,7 @@ figcaption{
 header{
     width: 100%;
     color: rgb(78, 78, 78);
+    background-color: #fff;
 }
 header .navBar{
     margin: 0px 5px;
@@ -115,7 +116,7 @@ header #nav-item ul li:hover{
     border-radius: 5px;
 }
 .top .intro ul{
-    padding: 0%;
+    padding: 0 0 2em 0;
     list-style: none;
     display: flex;
 }
@@ -126,7 +127,8 @@ header #nav-item ul li:hover{
     width: 30px;
 }
 section.skill{
-    padding: 5em 10px;
+    padding: 1.5em 0;
+    /* margin: 2em 10px; */
 }
 section.skill .skills{
     text-align: center;

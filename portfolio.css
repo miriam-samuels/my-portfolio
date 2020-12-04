@@ -48,10 +48,33 @@ header #nav-btn button{
 header #nav-item {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    background-color: azure;
     z-index: 1;
+}
+header #nav-item button{
+    float: right;
+    margin: 10px;
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+}
+header #nav-item ul{
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    transform: translate(50%,-50%);
+}
+header #nav-item ul li{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
 }
 .top{
     display: block;

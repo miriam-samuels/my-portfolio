@@ -253,7 +253,7 @@ section.skill .skills div img .js{
 }
 .experience .exp-points h5{
     background-color: azure;
-    width: fit-content;
+    width: 125px;
     padding: 10px;
     border-radius: 10px;
 }

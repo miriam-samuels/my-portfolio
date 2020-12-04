@@ -39,7 +39,7 @@ header .navBar h2{
 header #nav-btn{
     width: 20%;
     text-align: right;
-    margin-right: 5px;
+    margin:0 5px 0 0;
 }
 header #nav-btn button{
     border: none;
@@ -48,7 +48,7 @@ header #nav-btn button{
     margin: 0%;
 }
 header #nav-btn button img{
-    width: 40px;
+    width: 33px;
 }
 header #nav-item {
     display: none;

@@ -36,14 +36,22 @@ header .navBar h2{
     font-family: cursive;
     font-size: 20px;
 }
-header .nav-btn{
+header #nav-btn{
     width: 20%;
     text-align: right;
     margin-right: 5px;
 }
-header .nav-btn button{
+header #nav-btn button{
     border: none;
     background-color:transparent;
+}
+header #nav-item {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
 }
 .top{
     display: block;

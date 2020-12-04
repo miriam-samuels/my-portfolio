@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="portfolio.css">
-    <!-- <script defer src="portfolio.js"></script> -->
+    <script async src="./index.js"></script>
     <title>&#9829; CREATIVGENIUS &#9786;</title>
 </head>
 
@@ -16,11 +16,19 @@
             <nav class="navBar">
                 <h2>MIRIAM'S PORTFOLIO</h2>
             </nav>
-            <div class="nav-btn">
-                <button><img src="./images/drop-down.svg" alt="drop-down"/></button>
+            <div id="nav-btn">
+                <button id="main-btn" onclick="show()"><img src="./images/drop-down.svg" alt="drop-down" /></button>
+            </div>
+            <div id="nav-item">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Projects</li>
+                    <li>Contact</li>
+                </ul>
             </div>
         </div>
- 
+
         <div class="top">
             <img src="./images/hero.jpg" alt="black girl" />
             <div class="intro">

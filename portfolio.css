@@ -130,7 +130,7 @@ section.skill{
 }
 section.skill .skills{
     text-align: center;
-    margin: 20px;
+    margin:3em 20px 20px 20px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 20px;
@@ -213,6 +213,10 @@ section.skill .skills div img .js{
     border-radius: 5px;
     margin: 0 20px;
     vertical-align: top;
+}
+.project button a{
+    text-decoration: none;
+    color: white;
 }
 /*section.project{
     margin:5em  auto;
@@ -367,10 +371,6 @@ section.skill .skills div img .js{
     header #nav-item ul li{
         display: inline-block;
     }
-    /* header #nav-item ul li:hover{
-        background-color: azure;
-        color: white;
-    } */
     header .top{
         width: 95%;
         margin: auto;

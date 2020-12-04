@@ -20,7 +20,7 @@ header{
 }
 header .navBar{
     margin: 0px 5px;
-    padding: 10px 0;
+    padding:10px 0 30px 0;
     border-bottom: 1px solid #fff;
 }
 header .top-bar{
@@ -34,7 +34,7 @@ header .navBar{
 header .navBar h2{
     margin:0;
     font-family: cursive;
-    font-size: 20px;
+    font-size: 23px;
 }
 header #nav-btn{
     width: 20%;
@@ -44,6 +44,11 @@ header #nav-btn{
 header #nav-btn button{
     border: none;
     background-color:transparent;
+    padding: 0;
+    margin: 0%;
+}
+header #nav-btn button img{
+    width: 40px;
 }
 header #nav-item {
     display: none;

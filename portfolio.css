@@ -26,7 +26,7 @@ header .navBar{
 header .top-bar{
     display: flex;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
 }
 header .navBar{
     width: 80%;
@@ -80,6 +80,9 @@ header #nav-item ul li{
     padding: 10px;
     margin: 10px;
     font-size: 16px;
+}
+header #nav-item ul li:hover{
+    background-color: azure;
 }
 .top{
     display: block;
@@ -331,10 +334,37 @@ section.skill .skills div img .js{
     } */
 }
 @media (min-width:768px){
+    header .top-bar{
+        text-align: left;
+    }
     header .navBar{
         margin: 0px 5px;
-        padding: 30px 3em;
+        padding: 2em 1.5em;
         border-bottom: 1px solid #fff;
+        width: 45%;
+        text-align: left;
+    }
+    header #nav-btn{
+        display: none;
+    }
+    header #nav-item {
+        display: block;
+        position: relative;
+        background-color: white;
+    }
+    header #nav-item button{
+        display: none;
+    }
+    header #nav-item ul{
+        padding: 0;
+        list-style: none;
+        position: relative;
+        top: 0;
+        right: 0;
+        transform: translate(0%,0%);
+    }
+    header #nav-item ul li{
+        display: inline-block;
     }
     header .top{
         width: 95%;
@@ -386,6 +416,12 @@ section.skill .skills div img .js{
 @media (min-width:992px){
     header{
         background: linear-gradient(to right, azure 50%, white 50%);
+    }
+    header .navBar{
+        width: 50%;
+    }
+    header #nav-item ul li{
+        padding: 10px 20px;
     }
     .top .intro{
         margin-right: 12em;

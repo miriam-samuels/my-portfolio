@@ -3,7 +3,7 @@ head,body{
 }
 body{
     margin: 0;
-    background-color: #fff;
+    background-color: rgb(239, 248, 247);
 }
 h3{
     font-family: cursive;
@@ -126,7 +126,7 @@ header #nav-item ul li:hover{
     width: 30px;
 }
 section.skill{
-    margin: 5em 10px;
+    padding: 5em 10px;
 }
 section.skill .skills{
     text-align: center;
@@ -150,6 +150,9 @@ section.skill .skills div b{
 }
 section.skill .skills div img .js{
     display: block;
+}
+.project{
+    padding-bottom: 3em;
 }
 .project .projects{
     display: block;
@@ -218,6 +221,61 @@ section.skill .skills div img .js{
     text-decoration: none;
     color: white;
 }
+.experience{
+    background-color: #fff;
+    padding-top: 3em;
+}
+.experience .exp-place{
+    display: block;
+}
+.experience .exp-place ul{
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+.experience .exp-place ul li{
+    border-bottom: 2px solid #02BE75;
+    border-radius: 5px;
+    padding: 7px 10px;
+    margin: 10px;
+}
+.experience .exp-points{
+    margin: 20px;
+}
+.experience .exp-points h3{
+    text-align: left;
+}
+.experience .exp-points h5{
+    background-color: azure;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+}
+.experience .exp-points p{
+    line-height: 25px;
+}
+.experience .exp-points ul{
+    padding: 0;
+    list-style:none;
+}
+.experience .exp-points ul li{
+    margin-left:20px ;
+    display: grid;
+    grid-template-columns: 10% 90%;
+    align-items: center;
+}
+.experience .exp-points ul b::before {
+    content: "\21A0";
+    font-size: 20px;
+    line-height: 0;
+    font-weight: bolder;
+    display: inline-block; 
+    color: #02BE75;
+    padding-right: 20px;
+  }
+  
 /*section.project{
     margin:5em  auto;
 }
@@ -395,6 +453,19 @@ section.skill .skills div img .js{
     }
     .top .intro h4{
         font-size: 20px;
+    }
+    .experience .exp-wrapper{
+        display: flex;
+    }
+    .experience .exp-place{
+        width: 25%;
+    }
+    .experience .exp-points{
+        width: 60%;
+    }
+    .experience .exp-place ul li{
+        border-bottom:none;
+        border-left: 2px solid #02BE75;
     }
     /* .project .projects,.volunteer .volunteers{
         width: 90%;

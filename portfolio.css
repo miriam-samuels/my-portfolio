@@ -173,6 +173,7 @@ section.skill .skills div img .js{
     width: 90%;
     margin:3em  auto;
     box-shadow: 1px 1px 10px 1px #d8d8d8;
+    
 }
 .project .projects .project-wrapper .project-image img{
     margin:0;
@@ -188,6 +189,7 @@ section.skill .skills div img .js{
     font-size: 14px;
     line-height: 25px;
     padding: 20px;
+    background-color: #fff;
 }
 .project .projects .project-wrapper .project-details ul{
     padding: 0;

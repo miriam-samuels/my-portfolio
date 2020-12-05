@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="https://smtpjs.com/v3/smtp.js"></script> 
+    <script async src="./index.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <nav class="navBar">
+                <h2>MIRIAM'S PORTFOLIO</h2>
+            </nav>
+            <div id="nav-btn">
+                <button id="main-btn" onclick="show()"><img src="./images/drop-down.svg" alt="drop-down" /></button>
+            </div>
+            <div id="nav-item">
+                <button onclick="unshow()"><b>X</b></button>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./projects.html">Projects</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section>
+        <form method="POST" onsubmit="sendEmail()">
+            <input type="email" placeholder="Email" id="sender-mail" />
+            <textarea id="email-subject" rows="2" placeholder="Email-subject"></textarea>
+            <textarea id="sender-message" rows="6" placeholder="Message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+</body>
+</html>

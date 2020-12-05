@@ -380,6 +380,25 @@ section.skill .skills div img.vanilla{
       padding:20px 0 5px 0;
       border-bottom: 3px solid #02BE75;
   }
+  #contact .contact-me{
+      width: 70%;
+      margin: auto;
+      position: absolute;
+      top: 40%;
+      right: 50%;
+      transform: translate(50%,-50%);
+  }
+  #contact .contact-me form input, #contact .contact-me form textarea,#contact .contact-me form button{
+      display: block;
+      margin: 20px 0;
+      width: calc(100% - 20px);
+      padding: 10px;
+  }
+  #contact footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+  }
 /* 
     larger screens
 */

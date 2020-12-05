@@ -8,7 +8,7 @@
     <script async src="./index.js"></script>
     <title>Document</title>
 </head>
-<body>
+<body id="contact">
     <header>
         <div class="top-bar">
             <nav class="navBar">
@@ -28,13 +28,30 @@
             </div>
         </div>
     </header>
-    <section>
+    <section class="contact-me">
         <form method="POST" onsubmit="sendEmail()">
+            <h3>Get In Touch</h3>
             <input type="email" placeholder="Email" id="sender-mail" />
             <textarea id="email-subject" rows="2" placeholder="Email-subject"></textarea>
             <textarea id="sender-message" rows="6" placeholder="Message"></textarea>
             <button type="submit">Send</button>
         </form>
     </section>
+    <footer>
+        <div>
+            <ul>
+                <li><a href="https://linkedin.com/in/miriam-medo-655385174" target="blank"><img
+                            src="./images/linkedin.svg" alt="LN" /></a></li>
+                <li><a href="https://github.com/miriam-samuels" target="blank"><img src="./images/github-logo.svg"
+                            alt="GitHub" /></a></li>
+                <li><a href="https://facebook.com/medo.miriam.9" target="blank"><img src="./images/Facebook.svg"
+                            alt="FB" /></a></li>
+                <li><a href="https://twitter.com/_Medo_M?s=09" target="blank"><img src="./images/Twitter.svg"
+                            alt="Twitter" /></a></li>
+                <li><a href=""></a><img src="./images//Instagram.svg" alt="IG" /></li>
+            </ul>
+            <p>&copy; built by <span>MIRIAM</span> with HTML • CSS • JAVASCRIPT</p>
+        </div>
+    </footer>
 </body>
 </html>

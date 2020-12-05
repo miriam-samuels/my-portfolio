@@ -19,6 +19,7 @@ function sendEmail() {
         Subject : email_subject.value,
         Body : sender_message.value,
         }).then(
-            message => alert("mail sent successfully")
-        ); 
+            error => alert("mail not sent")
+        );
+
 }

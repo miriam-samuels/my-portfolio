@@ -301,9 +301,9 @@ section.skill .skills div img.vanilla{
     padding: 2em 0;
   }
   .volunteer .volunteers figure{
-      width: 90%;
+      width: 87%;
       margin:3em auto;
-      padding: 2em 0;
+      padding: 2em 10px;
       box-shadow: 2px 2px 6px gainsboro;
       background-color: white;
       vertical-align: top;

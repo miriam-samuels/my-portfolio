@@ -380,19 +380,33 @@ section.skill .skills div img.vanilla{
       padding:20px 0 5px 0;
       border-bottom: 3px solid #02BE75;
   }
+  #contact{
+      background-color: #fcfcfc;
+  }
   #contact .contact-me{
       width: 70%;
       margin: auto;
+      padding: 20px;
       position: absolute;
       top: 50%;
       right: 50%;
       transform: translate(50%,-50%);
+      background-color: #FFFFFF;
   }
-  #contact .contact-me form input, #contact .contact-me form textarea,#contact .contact-me form button{
+  #contact .contact-me form input, #contact .contact-me form textarea{
       display: block;
       margin: 20px 0;
       width: calc(100% - 20px);
       padding: 10px;
+      border: 1px solid gainsboro;
+      background-color: #fcfcfc;
+  }
+  #contact .contact-me form button{
+      width: 100%;
+      padding: 10px;
+      border: none;
+      background-color: #02BE75;
+      color: #FFFFFF;
   }
   #contact footer{
     width: 100%;

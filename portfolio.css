@@ -142,19 +142,28 @@ section.skill .skills{
 }
 section.skill .skills div{
     vertical-align: text-bottom;
+    /* background-color: #FFFFFF; */
+    /* height: 100px; */
+    padding: 20px 0;
 }
 section.skill .skills div img{
     display: block;
-    width: 60px;
-    margin: auto;
+    width: 80px;
+    margin:10px auto;
     border-radius: 12px;
 }
 section.skill .skills div b{
     font-size: 12px;
-    font-weight: 500;
+    font-weight: 600;
+    font-family: cursive;
 }
 section.skill .skills div img .js{
     display: block;
+    margin: 20px auto;
+}
+section.skill .skills div img.vanilla{
+    margin: -10px auto 20px auto;
+    width: 90px;
 }
 .project{
     padding-bottom: 3em;

@@ -122,15 +122,15 @@ header #nav-item ul li :hover{
     font-size: 16px;
     border-radius: 5px;
 }
-.top .intro ul{
+.top .intro ul,footer div ul{
     padding: 0 0 2em 0;
     list-style: none;
     display: flex;
 }
-.top .intro ul li{
+.top .intro ul li,footer div ul li{
     margin: 10px 20px 0 0;
 }
-.top .intro ul li img{
+.top .intro ul li img,footer div ul li img{
     width: 30px;
 }
 section.skill{
@@ -317,7 +317,26 @@ section.skill .skills div img.vanilla{
       text-align: center;
       padding: 5px;
   }
-
+  footer{
+      background-color: rgb(43, 43, 43);
+      padding: 10px 0;
+  }
+  footer div{
+      text-align: center;
+      color: white;
+  }
+  footer div ul{
+      align-items: center;
+      justify-content: center;
+      padding: 0;
+  }
+  footer div p{
+      font-size: 10px;
+      margin: 0;
+  }
+  footer div p span{
+      color: palevioletred;
+  }
 /* 
     larger screens
 */
@@ -418,7 +437,7 @@ section.skill .skills div img.vanilla{
         width: 50%;
     }
     header #nav-item ul li{
-        padding: 10px 20px;
+        padding: 0;
     }
     .top .intro{
         margin-right: 12em;
@@ -489,6 +508,9 @@ section.skill .skills div img.vanilla{
     }
     .top img{
         width: 45%;
+    }
+    header #nav-item ul li{
+        padding: 0 20px;
     }
     .volunteer{
         width: 70%;

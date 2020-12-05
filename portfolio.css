@@ -337,7 +337,7 @@ section.skill .skills div img.vanilla{
   footer div p span{
       color: palevioletred;
   }
-  #about header .top-bar,#project header .top-bar{
+  #about header .top-bar,#project header .top-bar,#contact header .top-bar{
       background-color: white;
   }
   .about,.education{
@@ -384,11 +384,14 @@ section.skill .skills div img.vanilla{
       background-color: #fcfcfc;
   }
   #contact .contact-me{
+      display: block;
+  }
+  #contact .contact-me form{
       width: 70%;
-      margin: auto;
+      margin:auto;
       padding: 20px;
       position: absolute;
-      top: 50%;
+      top: 48%;
       right: 50%;
       transform: translate(50%,-50%);
       background-color: #FFFFFF;
@@ -499,6 +502,9 @@ section.skill .skills div img.vanilla{
     }
     .volunteer .volunteers figure figcaption{
         padding: 0 20px;
+    }
+    #contact .contact-me form{
+        width: 500px;
     }
 }
 @media (min-width:992px){

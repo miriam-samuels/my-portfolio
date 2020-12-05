@@ -337,6 +337,9 @@ section.skill .skills div img.vanilla{
   footer div p span{
       color: palevioletred;
   }
+  #about header .top-bar,#project header .top-bar{
+      background-color: white;
+  }
   .about .about-img img{
       width: 100%;
   }

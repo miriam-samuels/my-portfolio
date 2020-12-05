@@ -340,8 +340,45 @@ section.skill .skills div img.vanilla{
   #about header .top-bar,#project header .top-bar{
       background-color: white;
   }
+  .about,.education{
+      width: 90%;
+      margin: auto;
+  }
   .about .about-img img{
       width: 100%;
+  }
+  .about div p{
+      font-size: 16px;
+      line-height: 25px;
+  }
+  #about .education figure{
+      margin: 0;
+  }
+  #about .education img{
+    width: 150px;
+    display: block;
+    margin: auto;
+  }
+  #about .education ul{
+      padding: 0;
+  }
+  #about .hobbies figure{
+      box-shadow: 2px 2px 6px 2px gainsboro;
+      margin: 2em auto;
+      padding:3em 10px;
+      width: 90%;
+      text-align: center;
+  }
+  #about .hobbies figure img{
+      width: 150px;
+      display: block;
+      margin: auto;
+  }
+  #about h3{
+      margin: auto;
+      width: fit-content;
+      padding:20px 0 5px 0;
+      border-bottom: 3px solid #02BE75;
   }
 /* 
     larger screens

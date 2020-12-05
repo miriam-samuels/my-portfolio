@@ -5,10 +5,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./portfolio.css">
+    <script async src="./index.js"></script>
     <title>Document</title>
 </head>
 
 <body>
+    <header>
+        <div class="top-bar">
+            <nav class="navBar">
+                <h2>MIRIAM'S PORTFOLIO</h2>
+            </nav>
+            <div id="nav-btn">
+                <button id="main-btn" onclick="show()"><img src="./images/drop-down.svg" alt="drop-down" /></button>
+            </div>
+            <div id="nav-item">
+                <button onclick="unshow()"><b>X</b></button>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./projects.html">Projects</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
     <section class="project">
         <h3>Featured Projects</h3>
         <div class="projects">
@@ -86,6 +106,22 @@
             </div>
         </div>
     </section>
+    <footer>
+        <div>
+            <ul>
+                <li><a href="https://linkedin.com/in/miriam-medo-655385174" target="blank"><img
+                            src="./images/linkedin.svg" alt="LN" /></a></li>
+                <li><a href="https://github.com/miriam-samuels" target="blank"><img src="./images/github-logo.svg"
+                            alt="GitHub" /></a></li>
+                <li><a href="https://facebook.com/medo.miriam.9" target="blank"><img src="./images/Facebook.svg"
+                            alt="FB" /></a></li>
+                <li><a href="https://twitter.com/_Medo_M?s=09" target="blank"><img src="./images/Twitter.svg"
+                            alt="Twitter" /></a></li>
+                <li><a href=""></a><img src="./images//Instagram.svg" alt="IG" /></li>
+            </ul>
+            <p>&copy; built by <span>MIRIAM</span> with HTML • CSS • JAVASCRIPT</p>
+        </div>
+    </footer>
 </body>
 
 </html>

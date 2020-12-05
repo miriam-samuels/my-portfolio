@@ -80,11 +80,16 @@ header #nav-item ul{
 }
 header #nav-item ul li{
     text-align: center;
-    padding: 10px;
     margin: 10px;
     font-size: 16px;
 }
-header #nav-item ul li:hover{
+header #nav-item ul li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 10px;
+}
+header #nav-item ul li :hover{
     background-color: black;
     color: white;
 }
@@ -130,7 +135,7 @@ header #nav-item ul li:hover{
 }
 section.skill{
     padding: 1.5em 0;
-    background-color: rgb(239, 248, 247);
+    /* background-color: #f7f7f7; */
     /* margin: 2em 10px; */
 }
 section.skill .skills{
@@ -143,7 +148,6 @@ section.skill .skills{
 section.skill .skills div{
     vertical-align: text-bottom;
     /* background-color: #FFFFFF; */
-    /* height: 100px; */
     padding: 20px 0;
 }
 section.skill .skills div img{
@@ -271,6 +275,7 @@ section.skill .skills div img.vanilla{
 }
 .experience .exp-points p{
     line-height: 25px;
+    margin-left:10px ;
 }
 .experience .exp-points ul{
     padding: 0;
@@ -291,89 +296,27 @@ section.skill .skills div img.vanilla{
     color: #02BE75;
     padding-right: 20px;
   }
-  
-/*section.project{
-    margin:5em  auto;
-}
-.project .projects{
-    display: block;
-}
-.project .projects figure{
-    box-shadow: 1px 1px 10px 1px #d8d8d8;
-    margin:0 20px;
-    width: 290px;
-    text-align: center;
-    margin:3em auto;
-}
- .project .projects figure img{
-    margin:0;
-    width: 100%;
-    height: 200px;
-}
-.project .projects figure figcaption{
-    font-size: 14px;
-    line-height: 30px;
-    padding: 20px;
-}
-.about{
-    margin: 5em auto;
-    display: block;
-}
-.about figure{
-    width: 290px;
-    margin:3em auto;
-    text-align: center;
-    box-shadow: 1px 1px 10px 1px #d8d8d8;
-}
-.about figure img{
-    width: 290px;
-}
-.about figure figcaption{
-    padding: 20px;
-}
-.education{
-    margin: 5em auto;
-}
-.education figure,.volunteer figure{
-    text-align: center;
-    width: 290px;
-    margin:2em  auto;
-    box-shadow: 1px 1px 10px 1px #d8d8d8;
-}
-.education figure img{
-    width: 150px;
-    margin: 20px 0;
-}
-.education figure figcaption{
-    padding: 20px;
-    text-align: left;
-}
-.volunteer figure img{
-    width: 250px;
-    margin: 20px 0;
-}
-.volunteer{
-    margin: 5em auto;
-}
-.volunteer figure figcaption{
-    padding: 20px;
-}
-.achievements p{
-    margin: 10px;
-    padding: 20px;
-    box-shadow: 1px 1px 10px 1px #d8d8d8;
-    font-size:14px;
-    color: #444242;
-    line-height: 30px;
-
-}
-.achievements p span{
-    background-image: linear-gradient(to left , red,orange,yellow,green,blue,indigo,violet);
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    background-clip: text;
-    color: transparent;
-} */
+  .volunteer{
+    background-color: #fcfcfc;
+    padding: 2em 0;
+  }
+  .volunteer .volunteers figure{
+      width: 90%;
+      margin:3em auto;
+      padding: 2em 0;
+      box-shadow: 2px 2px 6px gainsboro;
+      background-color: white;
+      vertical-align: top;
+  }
+  .volunteer .volunteers figure img{
+      width: 200px;
+      display: block;
+      margin: auto;
+  }
+  .volunteer .volunteers figure figcaption {
+      text-align: center;
+      padding: 5px;
+  }
 
 /* 
     larger screens
@@ -383,34 +326,10 @@ section.skill .skills div img.vanilla{
         grid-template-columns: repeat(4,1fr);
         gap: 20px;
     }
-    /* .project .projects,.volunteer .volunteers{
-        width: 95%;
-        margin: auto;
+    .volunteer .volunteers{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
     }
-    .project .projects figure{
-        display: inline-block;
-        vertical-align: top;
-        margin: 10px;
-        width: 46%;
-        height: 340px;
-    }
-    .volunteer figure{
-        display: inline-block;
-        vertical-align: top;
-        margin: 10px;
-        width: 46%;
-        height: 360px;
-    }
-    .volunteer figure img{
-        width: 200px;
-        margin: 30px 0 0 0;
-    }
-    .about figure,.education figure{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 90%;
-    } */
 }
 @media (min-width:768px){
     header .top-bar{
@@ -483,31 +402,14 @@ section.skill .skills div img.vanilla{
         border-bottom:none;
         border-left: 2px solid #02BE75;
     }
-    /* .project .projects,.volunteer .volunteers{
-        width: 90%;
-        margin: auto;
+    .volunteer .volunteers figure figcaption{
+        padding: 0 20px;
     }
-    .project .projects figure{
-        display: inline-block;
-        vertical-align: top;
-        margin:0 11px;
-        width: 46%;
-        height: 300px;
-    }
-    .volunteer figure{
-        display: inline-block;
-        vertical-align: top;
-        margin:0 11px;
-        width: 46%;
-        height: 350px;  
-    }
-    .about figure,.education figure{
-        width: 80%;
-    } */
 }
 @media (min-width:992px){
     body{
-        background-color: rgb(239, 248, 247);
+        background-color: #fcfcfc;
+        /* background-color: rgb(239, 248, 247); */
     }
     header{
         background: linear-gradient(to right, azure 50%, white 50%);
@@ -573,20 +475,10 @@ section.skill .skills div img.vanilla{
     .project .projects figure .switch{
         left: 0%;
     }
-    /* .project .projects,.volunteer .volunteers{
+    .volunteer{
         width: 80%;
         margin: auto;
     }
-    .project .projects figure{
-        margin: 0 15px;
-    }
-    .volunteer figure{
-        margin: 0 15px;
- 
-    }
-    .about figure,.education figure{
-        width: 70%;
-    } */
 }
 @media (min-width:1280px){
     header{
@@ -598,18 +490,7 @@ section.skill .skills div img.vanilla{
     .top img{
         width: 45%;
     }
-    /* .project .projects,.volunteer .volunteers{
-        width: 80%;
-        margin: auto;
-    }
-    .project .projects figure{
-        margin: 0 15px;
-    }
-    .volunteer figure{
-        margin: 0 15px;
- 
-    }
-    .about figure,.education figure{
+    .volunteer{
         width: 70%;
-    } */
+    }
 }

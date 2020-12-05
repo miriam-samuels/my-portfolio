@@ -297,7 +297,7 @@ section.skill .skills div img.vanilla{
     padding-right: 20px;
   }
   .volunteer{
-    background-color: #fcfcfc;
+    background-color: #fbfbfb;
     padding: 2em 0;
   }
   .volunteer .volunteers figure{
@@ -381,7 +381,7 @@ section.skill .skills div img.vanilla{
       border-bottom: 3px solid #02BE75;
   }
   #contact{
-      background-color: #fcfcfc;
+      background-color: #fbfbfb;
   }
   #contact .contact-me{
       display: block;
@@ -402,7 +402,7 @@ section.skill .skills div img.vanilla{
       width: calc(100% - 20px);
       padding: 10px;
       border: 1px solid gainsboro;
-      background-color: #fcfcfc;
+      background-color: #fbfbfb;
   }
   #contact .contact-me form button{
       width: 100%;
@@ -509,7 +509,7 @@ section.skill .skills div img.vanilla{
 }
 @media (min-width:992px){
     body{
-        background-color: #fcfcfc;
+        background-color: #fbfbfb;
         /* background-color: rgb(239, 248, 247); */
     }
     header{

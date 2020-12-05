@@ -11,9 +11,7 @@ function sendEmail() {
     const email_subject = document.getElementById('email-subject');
     const sender_message = document.getElementById('sender-message');
     Email.send({
-        Host: "smtp.gmail.com",
-        Username : sender_mail.value,
-        Password : "Medo@1994",
+        SecureToken : "f6c78810-52ae-4f28-815a-6c9669c371d4",
         To : 'medomiriam@gmail.com',
         From : sender_mail.value,
         Subject : email_subject.value,

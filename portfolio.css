@@ -201,6 +201,9 @@ section.skill .skills div img.vanilla{
     font-size: 20px;
     text-align: left;
 }
+.project .projects .project-wrapper .project-details h3 span{
+    color: #02BE75;
+}
 .project .projects .project-wrapper .project-details{
     font-size: 14px;
     line-height: 25px;

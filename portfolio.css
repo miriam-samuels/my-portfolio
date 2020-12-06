@@ -513,7 +513,7 @@ section.skill .skills div img.vanilla{
     }
     .about .about-wrapper{
         margin: 0;
-        background-color: white;
+        /* background-color: white; */
         display: grid;
         grid-template-columns: repeat(12,1fr);
     }

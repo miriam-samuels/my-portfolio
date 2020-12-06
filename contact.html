@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="portfolio.css">
-    <script src="https://smtpjs.com/v3/smtp.js"></script> 
-    <script async src="./index.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script async src="./index.js" type="module"></script>
     <title>Document</title>
 </head>
+
 <body id="contact">
     <header>
         <div class="top-bar">
@@ -29,8 +31,9 @@
         </div>
     </header>
     <section class="contact-me">
-        <form method="POST" onsubmit="sendEmail()">
+        <form method="POST">
             <h3>Get In Touch</h3>
+            <p>Please contact me through social media platforms for faster response</p>
             <input type="email" placeholder="Email" id="sender-mail" />
             <textarea id="email-subject" rows="2" placeholder="Email-subject"></textarea>
             <textarea id="sender-message" rows="6" placeholder="Message"></textarea>
@@ -54,4 +57,5 @@
         </div>
     </footer>
 </body>
+
 </html>

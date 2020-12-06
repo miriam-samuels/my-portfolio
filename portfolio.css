@@ -352,7 +352,7 @@ section.skill .skills div img.vanilla{
       line-height: 25px;
   }
   #about .education figure{
-      margin: 0;
+      margin:2em 0;
   }
   #about .education img{
     width: 150px;
@@ -388,12 +388,9 @@ section.skill .skills div img.vanilla{
   }
   #contact .contact-me form{
       width: 70%;
-      margin:auto;
+      height: 100%;
+      margin:5em auto;
       padding: 20px;
-      position: absolute;
-      top: 48%;
-      right: 50%;
-      transform: translate(50%,-50%);
       background-color: #FFFFFF;
   }
   #contact .contact-me form input, #contact .contact-me form textarea{
@@ -411,10 +408,11 @@ section.skill .skills div img.vanilla{
       background-color: #02BE75;
       color: #FFFFFF;
   }
+  #contact .contact-me form p{
+    text-align: center;
+  }
   #contact footer{
     width: 100%;
-    position: absolute;
-    bottom: 0%;
   }
 /* 
     larger screens
@@ -506,6 +504,44 @@ section.skill .skills div img.vanilla{
     #contact .contact-me form{
         width: 500px;
     }
+    .about{
+        width: 100%;  
+    }
+    .about .about-wrapper{
+        margin: 0;
+        background-color: white;
+        display: grid;
+        grid-template-columns: repeat(12,1fr);
+    }
+    .about .about-wrapper .about-img{
+        grid-column: 1/span 6;
+        grid-column-start: 1;
+        grid-column-end: span 6;
+    }
+    .about .about-wrapper .about-word{
+        grid-column: 7/12;
+        grid-column-start: 7;
+        grid-column-end: 12;
+    }
+    #about .hobbies div{
+        width: 95%;
+        margin: auto;
+        display: grid;
+        grid-template-columns:repeat(2,1fr) ;
+        gap: 10px;
+    }
+    #about .education figure{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #about .education figure .edu-img{
+        width: 40%;
+    }
+    #about .education figure img{
+        /* width: ; */
+        margin: 0;
+    }
 }
 @media (min-width:992px){
     body{
@@ -579,6 +615,9 @@ section.skill .skills div img.vanilla{
     .volunteer{
         width: 80%;
         margin: auto;
+    }
+    #about .hobbies div{
+        grid-template-columns:repeat(3,1fr) ;
     }
 }
 @media (min-width:1280px){

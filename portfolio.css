@@ -419,7 +419,7 @@ section.skill .skills div img.vanilla{
 */
 @media (min-width:600px){
     section.skill .skills{
-        grid-template-columns: repeat(4,1fr);
+        grid-template-columns: repeat(5,1fr);
         gap: 20px;
     }
     .volunteer .volunteers{
@@ -635,5 +635,11 @@ section.skill .skills div img.vanilla{
     }
     .volunteer{
         width: 70%;
+    }
+    .about .about-img {
+        text-align: center;
+    }
+    .about .about-img img{
+        width: 400px;
     }
 }

@@ -344,11 +344,15 @@ section.skill .skills div img.vanilla{
   #about header .top-bar,#project header .top-bar,#contact header .top-bar{
       background-color: white;
   }
+  #about{
+      background-color: ghostwhite;
+  }
   .about,.education{
       width: 90%;
       margin: auto;
   }
   .about .about-img img{
+      display: none;
       width: 100%;
   }
   .about div p{
@@ -509,26 +513,10 @@ section.skill .skills div img.vanilla{
         width: 500px;
     }
     .about{
-        width: 100%;  
-    }
-    .about .about-wrapper{
-        margin: 0;
-        /* background-color: white; */
-        display: grid;
-        grid-template-columns: repeat(12,1fr);
-    }
-    .about .about-wrapper .about-img{
-        grid-column: 1/span 6;
-        grid-column-start: 1;
-        grid-column-end: span 6;
-    }
-    .about .about-wrapper .about-word{
-        grid-column: 7/12;
-        grid-column-start: 7;
-        grid-column-end: 12;
+        width: 90%;  
     }
     #about .hobbies div{
-        width: 95%;
+        /* width: 95%; */
         margin: auto;
         display: grid;
         grid-template-columns:repeat(2,1fr) ;
@@ -620,8 +608,31 @@ section.skill .skills div img.vanilla{
         width: 80%;
         margin: auto;
     }
+    .about .about-wrapper{
+        margin: 0;
+        /* background-color: white; */
+        display: grid;
+        grid-template-columns: repeat(12,1fr);
+    }
+    .about .about-wrapper .about-img{
+        grid-column: 1/span 6;
+        grid-column-start: 1;
+        grid-column-end: span 6;
+    }
+    .about .about-img img{
+        display: block;
+        width: 100%;
+    }
+    .about .about-wrapper .about-word{
+        grid-column: 7/12;
+        grid-column-start: 7;
+        grid-column-end: 12;
+    }
     #about .hobbies div{
         grid-template-columns:repeat(3,1fr) ;
+    }
+    #about .education figure .edu-img{
+        width: 30%;
     }
 }
 @media (min-width:1280px){
@@ -640,10 +651,13 @@ section.skill .skills div img.vanilla{
     .volunteer{
         width: 70%;
     }
+    #about .education figure .edu-img{
+        width: 20%;
+    }
     .about .about-img {
         text-align: center;
     }
     .about .about-img img{
-        width: 400px;
+        width: 85%;
     }
 }

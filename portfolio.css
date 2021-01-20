@@ -35,7 +35,10 @@ header .navBar{
     width: 80%;
 }
 header .navBar img{
-    width: 180px;
+    width: 160px;
+    /* margin:0 10px;
+    font-family: cursive;
+    font-size: 40px; */
 }
 header #nav-btn{
     width: 20%;
@@ -49,8 +52,8 @@ header #nav-btn button{
     margin: 0%;
 }
 header #nav-btn button img{
-    width: 46px;
     margin-top: -25px;
+    width: 40px;
 }
 header #nav-item {
     display: none;

@@ -13,7 +13,7 @@ section .heading{
 }
 figcaption{
     font-size: 14px;
-    line-height: 30px;
+    line-height: 1.5;
     color: #444242;
 }
 header{
@@ -34,10 +34,8 @@ header .top-bar{
 header .navBar{
     width: 80%;
 }
-header .navBar h2{
-    margin:0;
-    font-family: cursive;
-    font-size: 23px;
+header .navBar img{
+    width: 180px;
 }
 header #nav-btn{
     width: 20%;
@@ -51,7 +49,8 @@ header #nav-btn button{
     margin: 0%;
 }
 header #nav-btn button img{
-    width: 33px;
+    width: 46px;
+    margin-top: -25px;
 }
 header #nav-item {
     display: none;
@@ -207,7 +206,7 @@ section.skill .skills div img.vanilla{
 }
 .project .projects .project-wrapper .project-details{
     font-size: 14px;
-    line-height: 25px;
+    line-height: 1.7;
     padding: 20px;
     background-color: #fff;
 }
@@ -278,7 +277,7 @@ section.skill .skills div img.vanilla{
     border-radius: 10px;
 }
 .experience .exp-points p{
-    line-height: 25px;
+    line-height: 1.8;
     margin-left:10px ;
 }
 .experience .exp-points ul{
@@ -357,7 +356,7 @@ section.skill .skills div img.vanilla{
   }
   .about div p{
       font-size: 16px;
-      line-height: 25px;
+      line-height: 1.7;
   }
   #about .education figure{
       margin:2em 0;
@@ -425,11 +424,13 @@ section.skill .skills div img.vanilla{
 /* 
     larger screens
 */
-@media (min-width:600px){
+@media (min-width:500px){
     section.skill .skills{
-        grid-template-columns: repeat(5,1fr);
+        grid-template-columns: repeat(3,1fr);
         gap: 20px;
     }
+}
+@media (min-width:600px){
     .volunteer .volunteers{
         display: grid;
         grid-template-columns: repeat(2,1fr);
@@ -492,6 +493,10 @@ section.skill .skills div img.vanilla{
     }
     .top .intro h4{
         font-size: 20px;
+    }
+    section.skill .skills{
+        grid-template-columns: repeat(6,1fr);
+        gap: 20px;
     }
     .experience .exp-wrapper{
         display: flex;

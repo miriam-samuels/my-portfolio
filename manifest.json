@@ -1,0 +1,21 @@
+{
+  "short_name": "Portfolio",
+  "name": "Miriam's Portfolio ",
+  "icons": [
+
+    {
+      "src": "nutriturelogo.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "nutriturelogo2.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

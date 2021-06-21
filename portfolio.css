@@ -266,6 +266,7 @@ section.skill .skills div img.vanilla{
     border-radius: 5px;
     padding: 7px 10px;
     margin: 10px;
+    display: block;
 }
 .experience .exp-points{
     margin: 20px;
@@ -510,6 +511,10 @@ section.skill .skills div img.vanilla{
     .experience .exp-points{
         width: 60%;
     }
+    .experience .exp-place ul{
+        display: block;
+    }
+
     .experience .exp-place ul li{
         border-bottom:none;
         border-left: 2px solid #02BE75;
@@ -641,6 +646,10 @@ section.skill .skills div img.vanilla{
     }
     #about .education figure .edu-img{
         width: 30%;
+    }
+    .experience .exp-place{
+        width: 25%;
+        margin-left: 20px ;
     }
 }
 @media (min-width:1280px){

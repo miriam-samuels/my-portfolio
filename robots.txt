@@ -1,2 +1,8 @@
 # unity-portfolio.netlify.app/robots.txt
-User-agent: googlebot
+User-agent: Googlebot
+
+User-agent: *
+Allow: /index.html
+Allow: /about.html
+
+Sitemap: http://www.example.com/sitemap.xml
